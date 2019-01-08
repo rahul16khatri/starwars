@@ -1,32 +1,71 @@
-.App {
-  text-align: center;
+header {
+  background-color: #012939;
+  height: 48px;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.main {
+  /* height: 400px; */
+  /* width: 300px; */
+  padding: 100px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.main-container {
+  text-align:center;
 }
 
-.App-link {
-  color: #61dafb;
+.input-styles {
+  /* border-radius: 3px; */
+  padding-top: 30px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid grey;
+  width: 300px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.login {
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: #E2E8ED;
+  background-color: #012939;
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
+
+.planet-info {
+  border: 1px solid #B9B9B9;
+  border-radius: 8px;
+  background-color: #F5F5F5;
+  text-align: left;
+  display: inline-block;
+  box-shadow: 3px 2px 12px #888888;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+}
+
+.pull-right {
+  position: absolute;
+  right: 200px;
+}
+
+.make-red {
+  color: red;
+}
+
+.planet-container {
+  margin-top: 30px;
+}
+
+.make-green {
+  color: green;
+}
+
+.planet-info {
+  width: 300px;
+  position: absolute;
+  left: 35%;
+  top: 25%;
+
+}
+
